@@ -10,7 +10,7 @@ import { createBrowserRouter,RouterProvider,Outlet } from 'react-router-dom'
 import RestaurantMenu from './src/Components/RestaurantMenu'
 import { lazy, Suspense } from 'react'
 import { Provider } from 'react-redux'
-import store from './src/utils/Store'
+import store from './src/utils/store'
 
 const SwiggyCorporate=lazy(()=> import("./src/Components/SwiggyCorporate"))
 const Cart=lazy(()=> import("./src/Components/Cart"))
