@@ -1,0 +1,93 @@
+/* *{
+    margin: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header>ul{
+    display: flex;
+    
+}
+.header>ul>li{
+   list-style-type: none;
+   padding: 10px;
+   margin-right: 70px;
+   
+}
+.header>ul>li:hover{
+ color: orangered;
+ }
+
+Link{
+    text-decoration: none;
+    color: black;
+ }
+ .carousel {
+  
+    display: flex;
+    padding: 10px;
+    overflow-x: auto; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+.corousel-card>img{
+    height: 200px;
+    width: 180px;
+}
+.restaurant-card>img{
+ height: 200px;
+ width: 200px;
+ border-radius: 20px;
+ 
+}
+.restaurant-card{
+    border-radius:10px;
+ border: 1px solid lightgrey;
+ padding: 5px
+}
+.top-restaurants{
+    display: flex;
+    padding: 10px;
+    overflow-x: auto; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+.restaurant-details>img{
+    height: 300px;
+    width: 400px;
+}
+.cart>img{
+    height: 200px;
+    width: 300px;
+}
+.cart{
+    border-radius:10px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    
+
+}
+.cart-whole{
+    display: flex;
+    padding: 10px;
+    overflow-x: auto; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add this CSS to your stylesheet */
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hidden {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+  
